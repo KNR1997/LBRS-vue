@@ -1,11 +1,12 @@
 <template>
     <div>
         <Navbar />
+        <Home />
         <!-- <main>
             <router-view />
         </main> -->
-        <!-- <Middle />
-        <Destination />
+        <Middle />
+        <!-- <Destination />
         <Portifolio />
         <Reviews />
         <Questions />
@@ -16,6 +17,7 @@
 
 <script setup>
 import Navbar from '../components/Navbar.vue'
+import Home from '../components/Home.vue'
 import Middle from '../components/Middle.vue'
 import Destination from '../components/Destination.vue'
 import Portifolio from '../components/Portifolio.vue'
