@@ -1,10 +1,8 @@
 <template>
-  <router-view />
+    <div>
+        Restaurant
+    </div>
 </template>
 
 <script setup>
 </script>
-
-
-<style scoped>
-</style>
