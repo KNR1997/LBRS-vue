@@ -1,10 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
-import DefaultLayout from "../components/DefaultLayout.vue";
-import GuestLayout from "../components/GuestLayout.vue";
+import DefaultLayout from "../layouts/DefaultLayout.vue";
+import GuestLayout from "../layouts/GuestLayout.vue";
 import Home from "../views/Home.vue";
-import Beach from "../views/Beach.vue";
-import Restaurant from "../views/Restaurant.vue";
-import WildLife from "../views/WildLife.vue";
+import Middle from "../components/Middle.vue";
+import Destination from "../components/Destination.vue";
+import Portifolio from "../components/Portifolio.vue";
+import Reviews from "../components/Reviews.vue";
+import Questions from "../components/Questions.vue";
+import Subscribe from "../components/Subscribe.vue";
+import Footer from "../components/Footer.vue";
 
 const routes = [
   {
@@ -15,21 +19,6 @@ const routes = [
         path: "/",
         name: "home",
         component: Home,
-      },
-      {
-        path: "/beach",
-        name: "beach",
-        component: Beach,
-      },
-      {
-        path: "/restaurant",
-        name: "restaurant",
-        component: Restaurant,
-      },
-      {
-        path: "/wildlife",
-        name: "wildlife",
-        component: WildLife,
       },
     ],
   },

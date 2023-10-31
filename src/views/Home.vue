@@ -1,5 +1,5 @@
 <template>
-  <pre>{{ meals }}</pre>
+  Home section
 </template>
 
 <script setup>
